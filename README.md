@@ -430,35 +430,9 @@ The expected output of the Python program is:
 Name: S Lalit Chandran
 Register Number: __________
 
---- STATE SPACE ---
-S1: Parking Available
-S2: Parking Nearly Full
-S3: Parking Full
-
---- ACTION SPACE ---
-A1: Admit Vehicle
-A2: Redirect Vehicle
-
---- TRANSITION PROBABILITIES ---
-Parking Available --Admit Vehicle--> Parking Nearly Full | P = 1.0
-Parking Available --Redirect Vehicle--> Parking Available | P = 1.0
-Parking Nearly Full --Admit Vehicle--> Parking Full | P = 1.0
-Parking Nearly Full --Redirect Vehicle--> Parking Available | P = 1.0
-Parking Full --Admit Vehicle--> Parking Full | P = 1.0
-Parking Full --Redirect Vehicle--> Parking Nearly Full | P = 1.0
-
---- REWARD FUNCTION ---
-State: Parking Available, Action: Admit Vehicle, Reward: 10
-State: Parking Available, Action: Redirect Vehicle, Reward: 2
-State: Parking Nearly Full, Action: Admit Vehicle, Reward: 5
-State: Parking Nearly Full, Action: Redirect Vehicle, Reward: 8
-State: Parking Full, Action: Admit Vehicle, Reward: -10
-State: Parking Full, Action: Redirect Vehicle, Reward: 10
-
---- DISCOUNT FACTOR ---
-Gamma = 1.0
-Future rewards are not discounted.
 ```
+<img width="977" height="292" alt="image" src="https://github.com/user-attachments/assets/8077bd74-5e10-4bc7-8030-23ba1becce0a" />
+
 
 ---
 
