@@ -343,7 +343,7 @@ It displays the state space, action space, transition probabilities, reward func
 # Smart Parking Space Management Using MDP
 
 print("Name: S Lalit Chandran")
-print("Register Number: __________")
+print("Register Number: 212223240077")
 
 # State Space
 states = {
@@ -498,4 +498,4 @@ This project demonstrates how an MDP can be used to model a practical parking ma
 
 **Name:** S Lalit Chandran
 
-**Register Number:** __________
+**Register Number:** 212223240077
