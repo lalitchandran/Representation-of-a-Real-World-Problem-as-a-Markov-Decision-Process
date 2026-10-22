@@ -428,7 +428,7 @@ The expected output of the Python program is:
 
 ```text
 Name: S Lalit Chandran
-Register Number: __________
+Register Number: 212223240077
 
 ```
 <img width="977" height="292" alt="image" src="https://github.com/user-attachments/assets/8077bd74-5e10-4bc7-8030-23ba1becce0a" />
